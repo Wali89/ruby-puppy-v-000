@@ -1,10 +1,14 @@
 class Dog
-  attr_accsr
+  attr_accesssor
   @@all = []
 
   def initialize(name)
     @name = name
     @@all << self
+  end
+
+  def self.all
+
   end
 
 end
